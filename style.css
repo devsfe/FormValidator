@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #fff;
 }
 
 .container {
@@ -20,7 +21,7 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 60%;
 }
 
 .form__title {
@@ -88,18 +89,17 @@ body {
     cursor: pointer;
     transition: ease 0.2s;
     width: 100%;
+    outline: none;
+    margin: 15px 0 0 0;
 }
 
 .form__button:hover {
     background-color: #e81e6c;
 }
 
-
 /*** Responsive ***/
 @media screen and (max-width: 600px) {
     .form {
         width: 80%;    
     }
-
-
 }
