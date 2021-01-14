@@ -20,54 +20,62 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 80%;
 }
 
 .form__title {
     margin: 0 0 25px 0;
 }
 
-.form__label {
-    font-weight: 600;
-    margin: 0 0 25px 0;
-    color: #212121;
+.form__item {
+    position: relative;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    position: relative;
+    margin: 0 0 15px 0;
 }
 
-.form__label input:focus {
-    border: 1px solid #636363;
+.form__label {
+    font-weight: 600;
+    color: #212121;
 }
 
-.form__label.success input:focus {
-    border: 1px solid #6bcf79;
+.form__item input:focus {
+    outline: none;
 }
 
-.form__label.error input:focus {
-    border: 1px solid red;
+.form__input.success  {
+    border: 2px solid #6bcf79;
 }
 
-.form__label small {
-    color: red;
+.form__input.error  {
+    border: 2px solid #f23054;
+}
+
+.form__item small {
+    color: #f23054;
     font-weight: normal;
     position: absolute;
-    top: 105%;
+    top: 100%;
     visibility: hidden;
 }
 
-.form__label.error small {
+.form__item small.error {
     visibility: visible;
 }
 
 .form__input {
     height: 40px;
     border-radius: 2px;
-    outline: none;
     border: solid 1px #F5F6F7;
     background-color: #F5F6F7;
     padding: 5px 7px;
     margin: 3px 0 0 0;
+    width: 100%;
+}
+
+.form__input:focus {
+    border: 1px solid #636363;   
 }
 
 .form__button {
@@ -79,6 +87,7 @@ body {
     text-align: center;
     cursor: pointer;
     transition: ease 0.2s;
+    width: 100%;
 }
 
 .form__button:hover {
