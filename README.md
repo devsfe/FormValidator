@@ -25,6 +25,6 @@
 <br>
 <h2>Links</h2>
 <hr>
-<p>Demo: <a href="https://formvalidatorapp.netlify.app/">https://formvalidatorapp.netlify.app/ </a></p>
+<p>Demonstration: <a href="https://formvalidatorapp.netlify.app/">https://formvalidatorapp.netlify.app/ </a></p>
 <p>Repo: <a href="https://github.com/devsfe/FormValidator">https://github.com/devsfe/FormValidator </a></p>
 <p>Javascript50: <a href="https://github.com/devsfe/Javascript50">https://github.com/devsfe/Javascript50 </a></p>
